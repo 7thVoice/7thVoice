@@ -1,17 +1,24 @@
-﻿2014/09/13 14:11:42 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\projects\7th_Voice\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj" (Build ターゲット)。
+﻿2014/09/13 16:09:31 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\projects\7thVoice\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj" (Build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Debug.win32\libAudio.tlog\unsuccessfulbuild" を作成しています。
        ClCompile:
-         すべての出力が最新のものです。
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I..\Include /IC:\projects\7thVoice\cocos2d\cocos\2d\..\..\cocos /IC:\projects\7thVoice\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IC:\projects\7thVoice\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IC:\projects\7thVoice\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"C:\projects\7thVoice\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\win32\MciPlayer.cpp ..\win32\SimpleAudioEngine.cpp
+         MciPlayer.cpp
+         SimpleAudioEngine.cpp
+     1>c:\projects\7thvoice\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\win32\SimpleAudioEngine.cpp)
+     1>c:\projects\7thvoice\cocos2d\cocos\base\ccutils.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\win32\SimpleAudioEngine.cpp)
+     1>c:\projects\7thvoice\cocos2d\cocos\2d\cclabel.h(276): warning C4244: 'return' : 'float' から 'int' への変換です。データが失われる可能性があります。 (..\win32\SimpleAudioEngine.cpp)
+     1>c:\projects\7thvoice\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\win32\SimpleAudioEngine.cpp)
        Lib:
-         すべての出力が最新のものです。
-         CocosDenshion.vcxproj -> C:\projects\7th_Voice\proj.win32\Debug.win32\libAudio.lib
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\projects\7thVoice\proj.win32\Debug.win32\libAudio.lib" /NOLOGO Debug.win32\MciPlayer.obj
+         Debug.win32\SimpleAudioEngine.obj
+         CocosDenshion.vcxproj -> C:\projects\7thVoice\proj.win32\Debug.win32\libAudio.lib
        FinalizeBuildStatus:
          ファイル "Debug.win32\libAudio.tlog\unsuccessfulbuild" を削除しています。
          "Debug.win32\libAudio.tlog\libAudio.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\projects\7th_Voice\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\projects\7thVoice\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.14
+経過時間 00:01:06.40
