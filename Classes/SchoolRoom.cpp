@@ -1,5 +1,9 @@
 #include "schoolroom.h"
 #include <random>
+#include "ChairCreater.h"
+#include "TableCreater.h"
+#include "SchoolRoomFactory.h"
+
 
 USING_NS_CC;
 
@@ -8,6 +12,10 @@ Scene* SchoolRoom::createScene()
 	auto scene = Scene::create();
 
 	auto layer = SchoolRoom::create();
+	layer->setTag(1);
+
+	SchoolRoomFactory sf;
+	sf.SchoolRoomCreate(layer);
 
 	scene->addChild(layer);
 
@@ -29,19 +37,18 @@ bool SchoolRoom::init()
 
 	backGround->setPosition(Vec2(visibleSize.width / 2 + origin.x, visibleSize.height / 2 + origin.y));
 
-	//backGround->setScale(0.6f);
 	this->addChild(backGround, 0);
 	
-	auto schoolObj = Sprite::create("game.png");
-
-	int randX = rand() % (int)visibleSize.width;
-	int randY = rand() % (int)visibleSize.height;
-
-	schoolObj->setPosition(Vec2(randX,randY));
-
-	schoolObj->setScale(0.5f);
-
-	this->addChild(schoolObj, 0);
-
 	return true;
+}
+
+void SchoolRoom::reset()
+{
+	SchoolRoomFactory sf;
+	
+	auto layer = (cocos2d::Layer *)this->getParent()->getChildByTag(1);
+	
+	sf.Remove(layer);
+
+	sf.Init(layer);
 }

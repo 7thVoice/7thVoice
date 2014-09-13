@@ -22,6 +22,12 @@
     <Filter Include="Classes\h\Scene">
       <UniqueIdentifier>{ff2d7665-bac0-42c4-a40a-8f615160afa1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\cpp\factory">
+      <UniqueIdentifier>{364c02f7-86c5-4449-a306-6db22881ac90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\h\factory">
+      <UniqueIdentifier>{d7398fbf-899a-472c-b4fb-0e4fd5e28740}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +51,15 @@
     <ClCompile Include="..\Classes\SchoolRoom.cpp">
       <Filter>Classes\cpp</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\ChairCreater.cpp">
+      <Filter>Classes\cpp\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TableCreater.cpp">
+      <Filter>Classes\cpp\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SchoolRoomFactory.cpp">
+      <Filter>Classes\cpp\factory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -67,6 +82,15 @@
     </ClInclude>
     <ClInclude Include="..\Classes\schoolroom.h">
       <Filter>Classes\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChairCreater.h">
+      <Filter>Classes\h\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TableCreater.h">
+      <Filter>Classes\h\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SchoolRoomFactory.h">
+      <Filter>Classes\h\factory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -136,19 +136,25 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\ChairCreater.cpp" />
     <ClCompile Include="..\Classes\EndingScene.cpp" />
     <ClCompile Include="..\Classes\GameLayer.cpp" />
     <ClCompile Include="..\Classes\MainScene.cpp" />
+    <ClCompile Include="..\Classes\SchoolRoomFactory.cpp" />
     <ClCompile Include="..\Classes\SchoolRoom.cpp" />
+    <ClCompile Include="..\Classes\TableCreater.cpp" />
     <ClCompile Include="..\Classes\TitleScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\ChairCreater.h" />
     <ClInclude Include="..\Classes\EndingScene.h" />
     <ClInclude Include="..\Classes\GameLayer.h" />
     <ClInclude Include="..\Classes\MainScene.h" />
+    <ClInclude Include="..\Classes\SchoolRoomFactory.h" />
     <ClInclude Include="..\Classes\schoolroom.h" />
+    <ClInclude Include="..\Classes\TableCreater.h" />
     <ClInclude Include="..\Classes\TitleScene.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>

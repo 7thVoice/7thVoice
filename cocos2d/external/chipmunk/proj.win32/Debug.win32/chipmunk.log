@@ -1,5 +1,5 @@
-﻿2014/09/13 16:09:31 にビルドを開始しました。
-     1>ノード 3 上のプロジェクト "C:\projects\7thVoice\cocos2d\external\chipmunk\proj.win32\chipmunk.vcxproj" (Build ターゲット)。
+﻿2014/09/13 21:44:49 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\projects\7thVoice\cocos2d\external\chipmunk\proj.win32\chipmunk.vcxproj" (Rebuild ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Debug.win32\libchipmunk.tlog\unsuccessfulbuild" を作成しています。
        ClCompile:
@@ -8,34 +8,34 @@
          cpArbiter.c
          cpArray.c
          cpBB.c
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArbiter.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArbiter.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBB.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBB.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArray.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArray.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\chipmunk.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\chipmunk.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArbiter.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArbiter.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArray.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpArray.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBB.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBB.c)
          cpBBTree.c
          cpBody.c
          cpCollision.c
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBody.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBody.c)
+         cpHashSet.c
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBBTree.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBBTree.c)
-         cpHashSet.c
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpCollision.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpCollision.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpHashSet.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpHashSet.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBody.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpBody.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpCollision.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpCollision.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\src\cpcollision.c(75): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。
          cpPolyShape.c
          cpShape.c
          cpSpace.c
          cpSpaceComponent.c
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpPolyShape.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpPolyShape.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpShape.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpPolyShape.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpShape.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceComponent.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceComponent.c)
@@ -43,16 +43,16 @@
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpace.c)
          cpSpaceHash.c
          cpSpaceQuery.c
-         cpSpaceStep.c
-         cpSpatialIndex.c
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceHash.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceHash.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceStep.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceStep.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpatialIndex.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpatialIndex.c)
+         cpSpaceStep.c
+         cpSpatialIndex.c
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceQuery.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceQuery.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpatialIndex.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpatialIndex.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceStep.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSpaceStep.c)
          cpSweep1D.c
          cpVect.c
          cpConstraint.c
@@ -61,10 +61,10 @@
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpSweep1D.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\constraints\cpConstraint.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\constraints\cpConstraint.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpVect.c)
-     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpVect.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\constraints\cpDampedRotarySpring.c)
      1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\constraints\cpDampedRotarySpring.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(105): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpVect.c)
+     1>c:\projects\7thvoice\cocos2d\external\chipmunk\include\chipmunk\cpbb.h(111): warning C4056: 浮動小数点数の定数演算でオーバーフローしました。 (..\src\cpVect.c)
          cpDampedSpring.c
          cpGearJoint.c
          cpGrooveJoint.c
@@ -126,8 +126,8 @@
        FinalizeBuildStatus:
          ファイル "Debug.win32\libchipmunk.tlog\unsuccessfulbuild" を削除しています。
          "Debug.win32\libchipmunk.tlog\libchipmunk.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\projects\7thVoice\cocos2d\external\chipmunk\proj.win32\chipmunk.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\projects\7thVoice\cocos2d\external\chipmunk\proj.win32\chipmunk.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:01:01.28
+経過時間 00:00:25.00

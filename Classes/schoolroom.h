@@ -10,6 +10,8 @@ public:
 
 	virtual bool init();
 
+	void reset();
+
 	CREATE_FUNC(SchoolRoom);
 };
 #endif
