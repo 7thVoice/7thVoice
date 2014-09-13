@@ -47,6 +47,11 @@ void  SchoolRoomFactory::SchoolRoomCreate(cocos2d::Layer* layer)
 
 	TableCreater tc;
 
+	auto teschdesk = Sprite::create("teach.png");
+	teschdesk->setPosition(Vec2(1000, 450));
+	teschdesk->setScale(0.4);
+	layer->addChild(teschdesk);
+
 	for (int i = 0; i < CreateNum; i++){
 		layer->addChild(tc.Create("table.png", tablePosList.at(startNum)));
 		startNum++;

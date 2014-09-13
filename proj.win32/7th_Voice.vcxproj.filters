@@ -60,6 +60,12 @@
     <ClCompile Include="..\Classes\SchoolRoomFactory.cpp">
       <Filter>Classes\cpp\factory</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\LayerFactory.cpp">
+      <Filter>Classes\cpp\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LayerManager.cpp">
+      <Filter>Classes\cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -91,6 +97,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\SchoolRoomFactory.h">
       <Filter>Classes\h\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerFactory.h">
+      <Filter>Classes\h\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerManager.h">
+      <Filter>Classes\h</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

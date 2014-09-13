@@ -10,8 +10,13 @@ public:
 
 	virtual bool init();
 
-	void reset();
+	void reset(Ref* sender);
+	
+	cocos2d::Sprite* createRoom(int layerNum);
 
 	CREATE_FUNC(SchoolRoom);
+
+private:
+	int layerNumber;
 };
 #endif

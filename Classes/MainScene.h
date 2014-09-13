@@ -1,7 +1,9 @@
 #ifndef MAINSCENE_H
 #define MAINSCENE_H
 
-class MainScene : cocos2d::Layer
+#include "cocos2d.h"
+
+class MainScene : public cocos2d::Layer
 {
 
 };

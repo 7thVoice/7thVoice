@@ -8,7 +8,6 @@ class TableCreater;
 class ChairCreater;
 class MainScene;
 
-
 class SchoolRoomFactory
 {
 public:
@@ -17,6 +16,8 @@ public:
 	void Remove(cocos2d::Layer* layer);
 
 	void Init(cocos2d::Layer* layer);
+
+	cocos2d::Sprite* createRoom(int layerNum);
 
 private:
 	void addList();
