@@ -1,6 +1,8 @@
 #include "AppDelegate.h"
 #include "TitleScene.h"
 #include "GameLayer.h"
+#include "schoolRoom.h"
+
 
 USING_NS_CC;
 
@@ -19,6 +21,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     if(!glview) {
         glview = GLView::create("7th_Voice");
         director->setOpenGLView(glview);
+
+		glview->setDesignResolutionSize(1136, 640, ResolutionPolicy::SHOW_ALL);
     }
 
     // turn on display FPS
@@ -27,10 +31,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
-	glview->setDesignResolutionSize(640, 1136, ResolutionPolicy::FIXED_WIDTH);
-
     // create a scene. it's an autorelease object
-    auto scene = TitleScene::createScene();
+    auto scene = SchoolRoom::createScene();
 
     // run
     director->runWithScene(scene);
