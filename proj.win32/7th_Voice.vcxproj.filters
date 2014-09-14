@@ -42,9 +42,6 @@
     <ClCompile Include="..\Classes\MainScene.cpp">
       <Filter>Classes\cpp\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\TitleScene.cpp">
-      <Filter>Classes\cpp\Scene</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\GameLayer.cpp">
       <Filter>Classes\cpp</Filter>
     </ClCompile>
@@ -65,6 +62,15 @@
     </ClCompile>
     <ClCompile Include="..\Classes\LayerManager.cpp">
       <Filter>Classes\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>Classes\cpp\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>Classes\cpp\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CreditScene.cpp">
+      <Filter>Classes\cpp\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +109,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\LayerManager.h">
       <Filter>Classes\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>Classes\h\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CreditScene.h">
+      <Filter>Classes\h\Scene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

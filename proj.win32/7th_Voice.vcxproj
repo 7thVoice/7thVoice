@@ -137,8 +137,10 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\ChairCreater.cpp" />
+    <ClCompile Include="..\Classes\CreditScene.cpp" />
     <ClCompile Include="..\Classes\EndingScene.cpp" />
     <ClCompile Include="..\Classes\GameLayer.cpp" />
+    <ClCompile Include="..\Classes\GameOverScene.cpp" />
     <ClCompile Include="..\Classes\LayerFactory.cpp" />
     <ClCompile Include="..\Classes\LayerManager.cpp" />
     <ClCompile Include="..\Classes\MainScene.cpp" />
@@ -151,8 +153,10 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ChairCreater.h" />
+    <ClInclude Include="..\Classes\CreditScene.h" />
     <ClInclude Include="..\Classes\EndingScene.h" />
     <ClInclude Include="..\Classes\GameLayer.h" />
+    <ClInclude Include="..\Classes\GameOverScene.h" />
     <ClInclude Include="..\Classes\LayerFactory.h" />
     <ClInclude Include="..\Classes\LayerManager.h" />
     <ClInclude Include="..\Classes\MainScene.h" />
