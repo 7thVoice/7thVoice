@@ -17,6 +17,8 @@ public:
 
 	void addHuman();
 
+	void update(float dt);
+
 	// implement the "static create()" method manually
 	CREATE_FUNC(TitleScene);
 };

@@ -58,7 +58,6 @@ bool TitleScene::init()
 
 	auto buttonlabel = LabelTTF::create("Push State", "Arial", 56);
 
-	// position the label on the center of the screen
 	buttonlabel->setPosition(Vec2(origin.x + visibleSize.width / 2,
 		origin.y + visibleSize.height / 3.5));
 
@@ -72,11 +71,26 @@ bool TitleScene::init()
 	// add the sprite as a child to this layer
 	this->addChild(sprite, 0);
 
+	addHuman();
+
+	this->schedule(schedule_selector(TitleScene::update));
+	
+	this->scheduleUpdate();
+
 	return true;
 }
 
 void TitleScene::addHuman(){
-	
+	auto human = Sprite::create("boyR.png");
+	human->setPosition(Vec2(0, human->getContentSize().height));
+
+	human->setTag(1);
+
+	this->addChild(human);
+
+	auto move = MoveTo::create(3, Vec2(Director::getInstance()->getWinSize().width, human->getContentSize().height));
+	move->setTag(1);
+	human->runAction(move);
 }
 
 
@@ -92,4 +106,15 @@ void TitleScene::menuCloseCallback(Ref* pSender)
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 	exit(0);
 #endif
+}
+
+void TitleScene::update(float dt){
+	auto human = (Sprite *)this->getChildByTag(1);
+
+	if (human->getActionByTag(1)){
+		return;
+	}
+	this->removeChildByTag(1);
+
+	addHuman();
 }
