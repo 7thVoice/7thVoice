@@ -15,6 +15,8 @@ public:
 	// a selector callback
 	void menuCloseCallback(cocos2d::Ref* pSender);
 
+	void addHuman();
+
 	// implement the "static create()" method manually
 	CREATE_FUNC(TitleScene);
 };

@@ -32,20 +32,22 @@ bool TitleScene::init()
 
 	//ƒ{ƒ^ƒ“ì¬
 	auto closeItem = MenuItemImage::create(
-		"CloseNormal.png",
-		"CloseSelected.png",
+		"teach.png",
+		"Onbutton.png",
 		CC_CALLBACK_1(TitleScene::menuCloseCallback, this));
 
-	closeItem->setPosition(Vec2(origin.x + visibleSize.width - closeItem->getContentSize().width / 2,
-		origin.y + closeItem->getContentSize().height / 2));
-
+	closeItem->setPosition(Vec2(origin.x + visibleSize.width / 2 ,
+		origin.y + closeItem->getContentSize().height / 3 ));
+	
+	closeItem->setRotation(90);
+	closeItem->setScale(0.6);
 	// create menu, it's an autorelease object
 	auto menu = Menu::create(closeItem, NULL);
 	menu->setPosition(Vec2::ZERO);
 	this->addChild(menu, 1);
 
 	
-	auto label = LabelTTF::create("Title", "Arial", 24);
+	auto label = LabelTTF::create("7thVoice", "Arial", 56);
 
 	// position the label on the center of the screen
 	label->setPosition(Vec2(origin.x + visibleSize.width / 2,
@@ -54,8 +56,15 @@ bool TitleScene::init()
 	// add the label as a child to this layer
 	this->addChild(label, 1);
 
+	auto buttonlabel = LabelTTF::create("Push State", "Arial", 56);
+
+	// position the label on the center of the screen
+	buttonlabel->setPosition(Vec2(origin.x + visibleSize.width / 2,
+		origin.y + visibleSize.height / 3.5));
+
+	this->addChild(buttonlabel, 1);
 	// add "TitleScene" splash screen"
-	auto sprite = Sprite::create("HelloWorld.png");
+	auto sprite = Sprite::create("class01.png");
 
 	// position the sprite on the center of the screen
 	sprite->setPosition(Vec2(visibleSize.width / 2 + origin.x, visibleSize.height / 2 + origin.y));
@@ -64,6 +73,10 @@ bool TitleScene::init()
 	this->addChild(sprite, 0);
 
 	return true;
+}
+
+void TitleScene::addHuman(){
+	
 }
 
 
